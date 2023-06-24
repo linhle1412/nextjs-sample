@@ -10,7 +10,7 @@ const MAX_DISPLAY = 10
 export const getStaticProps: GetStaticProps<{ blogs: Blog[] }> = async () => {
   const fetchBlogs = async () => {
     try {
-      const resp = await fetch('http://localhost:3000/api/blog')
+      const resp = await fetch(process.env.BASE_URL + '/blog')
       const { data } = await resp.json()
       return data
     } catch (e) {
