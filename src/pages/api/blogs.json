@@ -7,5 +7,41 @@
         "tags": ["next-js", "tailwind", "guide"],
         "author": "Linh Le",
         "slug": "new-features-in-v1"
+    },
+    {
+        "id": 2,
+        "title": "Deriving the OLS Estimator",
+        "description": "How to derive the OLS Estimator with matrix notation and a tour of math typesetting using markdown with the help of KaTeX.",
+        "createdAt": "2020-12-21",
+        "tags": ["next js", "math", "ols"],
+        "author": "Bang Cong",
+        "slug": "deriving-the-ols-estimator"
+    },
+    {
+        "id": 3,
+        "title": "Markdown Guide",
+        "description": "Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.",
+        "createdAt": "2019-10-11",
+        "tags": ["github", "guide"],
+        "author": "Vinh Chiem",
+        "slug": "markdown-guide"
+    },
+    {
+        "id": 4,
+        "title": "Images in Next.js",
+        "description": "In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component",
+        "createdAt": "2020-11-11",
+        "tags": ["next js", "guide"],
+        "author": "An Phu",
+        "slug": "image-in-nextjs"
+    },
+    {
+        "id": 5,
+        "title": "Introducing Tailwind Nextjs Starter Blo",
+        "description": "Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.",
+        "createdAt": "2021-01-12",
+        "tags": ["next-js", "tailwind", "guide"],
+        "author": "Linh Le",
+        "slug": "introducing-tailwind-nextjs-starter-blo"
     }
 ]
