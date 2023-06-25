@@ -13,7 +13,7 @@ export async function getStaticPaths() {
         params: { slug: blog.slug },
     }))
 
-    return { paths, fallback: false }
+    return { paths, fallback: true }
 }
 
 export const getStaticProps: GetStaticProps<{ blog: Blog }> = async (context) => {
