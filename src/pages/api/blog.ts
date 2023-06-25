@@ -9,5 +9,10 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<ResponseData>
 ) {
+  if (req.query.slug) {
+    const blog = blogs.find((blog) => blog.slug === req.query.slug)
+    if (blog) return res.status(200).json({ data: blog })
+    return res.status(404)
+  }
   res.status(200).json({ data: blogs })
 }
